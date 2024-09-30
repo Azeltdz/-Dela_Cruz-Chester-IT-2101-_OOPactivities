@@ -6,6 +6,7 @@ public class MultiplicationTable {
 
         System.out.print("Enter the size of the multiplication table: ");
         int size = value.nextInt();
+        System.out.println("Multiplication Table: ");
 
         int [][] table = new int[size + 1][size + 1];
 
